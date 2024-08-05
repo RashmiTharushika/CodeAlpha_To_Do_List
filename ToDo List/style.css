@@ -1,0 +1,92 @@
+body{
+    background-color:#92DAFA ;
+    border: 15px solid white;
+    height: 93vh;
+    font-family: "Inria Serif", serif;
+    
+}
+
+
+.content{
+    padding: 150px;
+
+}
+
+.header--title, .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header{
+    background-color: white;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    padding: 10px 60px 10px 60px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display:inline-flex;
+
+}
+
+.todo--img{
+    width: 60px;
+    height: 60px;
+}
+
+
+.sub--header{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px; 
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+
+.top--form{
+    display: flex;
+}
+
+
+form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-family: "Inria Serif", serif;
+    margin-right: 20px;
+}
+
+form button {
+    padding: 10px 30px 10px 30px ;
+    border: none;
+    background-color: #EA6E84;
+    color: #000000;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: "Inria Serif", serif;
+    margin-left: 20px;
+}
+
+
+.task{
+    background-color: #EA6E84;
+    padding: 10px;
+            
+}
+
+.list-group{
+    /* background-color: white; */
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    
+    
+}
+
